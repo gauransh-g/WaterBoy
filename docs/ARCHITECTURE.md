@@ -114,3 +114,4 @@ User Query
 - **Aesthetic**: Crisp white canvas (`bg-white`, `bg-slate-50`) paired with sky blue typography (`text-sky-600`, `text-sky-700`) and border accents.
 - **Accessibility**: Clear visual indicators for groundwater stress (Safe = Sky Blue, Semi-Critical = Amber, Critical = Orange, Over-Exploited = Rose).
 - **Transparency**: Every claim in the assistant links directly to an evidence drawer detailing relevance percentage, source document, chunk ID, and exact source text.
+
