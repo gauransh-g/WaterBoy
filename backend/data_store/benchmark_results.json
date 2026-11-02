@@ -1,0 +1,208 @@
+{
+  "total_tests": 10,
+  "passed_tests": 10,
+  "retrieval_precision_at_k": 1.0,
+  "retrieval_recall_at_k": 1.0,
+  "faithfulness_score_avg": 0.729,
+  "citation_rate": 1.0,
+  "unsupported_query_refusal_accuracy": 1.0,
+  "avg_latency_ms": 24.76,
+  "test_results": [
+    {
+      "question": "What is the formula to calculate the Stage of Ground Water Extraction according to CGWB GEC-2015?",
+      "expected_topics": [
+        "total annual ground water draft",
+        "extractable",
+        "resource",
+        "100",
+        "formula"
+      ],
+      "retrieved_chunk_ids": [
+        "01_cgwb_resource_estimation_methodology_md_0_1d9744f0",
+        "01_cgwb_resource_estimation_methodology_md_4_f112a6d3",
+        "06_decadal_groundwater_trends_india_2015_2025_md_3_cfb715fe",
+        "01_cgwb_resource_estimation_methodology_md_3_62c0d535"
+      ],
+      "retrieval_hit": true,
+      "faithfulness_score": 0.77,
+      "has_citations": true,
+      "refusal_correctness": true,
+      "latency_ms": 25.22,
+      "status": "PASSED"
+    },
+    {
+      "question": "What are the criteria for an assessment unit to be categorized as Over-Exploited by CGWB?",
+      "expected_topics": [
+        "over-exploited",
+        "100",
+        "decline",
+        "extraction"
+      ],
+      "retrieved_chunk_ids": [
+        "09_national_groundwater_policies_and_flagship_schemes_md_1_303b17c7",
+        "01_cgwb_resource_estimation_methodology_md_0_1d9744f0",
+        "05_ingres_portal_and_digital_groundwater_monitoring_md_3_344bfbce",
+        "01_cgwb_resource_estimation_methodology_md_1_30b3eaf7"
+      ],
+      "retrieval_hit": true,
+      "faithfulness_score": 0.54,
+      "has_citations": true,
+      "refusal_correctness": true,
+      "latency_ms": 30.29,
+      "status": "PASSED"
+    },
+    {
+      "question": "Which states are covered under the Atal Bhujal Yojana and what is its funding structure?",
+      "expected_topics": [
+        "gujarat",
+        "haryana",
+        "world bank",
+        "central sector"
+      ],
+      "retrieved_chunk_ids": [
+        "02_atal_bhujal_yojana_guidelines_md_0_e577c23a",
+        "09_national_groundwater_policies_and_flagship_schemes_md_3_82b7db21",
+        "02_atal_bhujal_yojana_guidelines_md_4_492acab0",
+        "02_atal_bhujal_yojana_guidelines_md_1_a4c26642"
+      ],
+      "retrieval_hit": true,
+      "faithfulness_score": 0.85,
+      "has_citations": true,
+      "refusal_correctness": true,
+      "latency_ms": 25.01,
+      "status": "PASSED"
+    },
+    {
+      "question": "What artificial recharge structures are recommended for hard rock basaltic and crystalline terrains?",
+      "expected_topics": [
+        "check dam",
+        "percolation tank",
+        "subsurface dyke",
+        "recharge shaft"
+      ],
+      "retrieved_chunk_ids": [
+        "03_artificial_recharge_and_rainwater_harvesting_md_1_0500c23f",
+        "07_all_states_and_uts_hydrogeology_profiles_md_15_c69198c8",
+        "10_water_wells_pumping_machinery_and_dwlr_telemetry_md_3_423b6f19",
+        "08_aquifer_systems_depth_to_water_and_fluctuations_md_3_f321d7c3"
+      ],
+      "retrieval_hit": true,
+      "faithfulness_score": 0.5,
+      "has_citations": true,
+      "refusal_correctness": true,
+      "latency_ms": 25.24,
+      "status": "PASSED"
+    },
+    {
+      "question": "What is the BIS IS 10500:2012 acceptable limit for Arsenic and Fluoride in drinking water?",
+      "expected_topics": [
+        "0.01",
+        "10 ppb",
+        "1.0",
+        "1.5",
+        "arsenic",
+        "fluoride"
+      ],
+      "retrieved_chunk_ids": [
+        "04_groundwater_quality_and_contamination_standards_md_1_d5ebaf0d",
+        "07_all_states_and_uts_hydrogeology_profiles_md_25_dfc69669",
+        "04_groundwater_quality_and_contamination_standards_md_3_c3fbd2d6",
+        "07_all_states_and_uts_hydrogeology_profiles_md_29_2269c5a5"
+      ],
+      "retrieval_hit": true,
+      "faithfulness_score": 0.89,
+      "has_citations": true,
+      "refusal_correctness": true,
+      "latency_ms": 26.05,
+      "status": "PASSED"
+    },
+    {
+      "question": "What is the India Ground Water Resource Estimation System (INGRES) and who co-developed it?",
+      "expected_topics": [
+        "ingres",
+        "cgwb",
+        "iit hyderabad",
+        "gec-2015",
+        "web-gis",
+        "dwlr"
+      ],
+      "retrieved_chunk_ids": [
+        "05_ingres_portal_and_digital_groundwater_monitoring_md_0_a8b9067f",
+        "05_ingres_portal_and_digital_groundwater_monitoring_md_1_a434a715",
+        "01_cgwb_resource_estimation_methodology_md_0_1d9744f0",
+        "06_decadal_groundwater_trends_india_2015_2025_md_1_4ad41aa4"
+      ],
+      "retrieval_hit": true,
+      "faithfulness_score": 0.61,
+      "has_citations": true,
+      "refusal_correctness": true,
+      "latency_ms": 25.73,
+      "status": "PASSED"
+    },
+    {
+      "question": "What is the groundwater extraction status and category in Delhi assessment units?",
+      "expected_topics": [
+        "delhi",
+        "stage",
+        "extraction",
+        "cgwb"
+      ],
+      "retrieved_chunk_ids": [
+        "cgwb_multiyear_trend_delhi",
+        "cgwb_2024_2025_delhi_nazul_land",
+        "cgwb_2023_2024_delhi_nazul_land",
+        "05_ingres_portal_and_digital_groundwater_monitoring_md_1_a434a715"
+      ],
+      "retrieval_hit": true,
+      "faithfulness_score": 0.82,
+      "has_citations": true,
+      "refusal_correctness": true,
+      "latency_ms": 14.7,
+      "status": "PASSED"
+    },
+    {
+      "question": "How do Digital Water Level Recorders (DWLR) support real-time groundwater monitoring?",
+      "expected_topics": [
+        "dwlr",
+        "telemetry",
+        "piezometer",
+        "hydrostatic pressure",
+        "real-time"
+      ],
+      "retrieved_chunk_ids": [
+        "05_ingres_portal_and_digital_groundwater_monitoring_md_2_0ce80864",
+        "10_water_wells_pumping_machinery_and_dwlr_telemetry_md_5_d530021d",
+        "08_aquifer_systems_depth_to_water_and_fluctuations_md_5_1795100f",
+        "09_national_groundwater_policies_and_flagship_schemes_md_3_82b7db21"
+      ],
+      "retrieval_hit": true,
+      "faithfulness_score": 0.85,
+      "has_citations": true,
+      "refusal_correctness": true,
+      "latency_ms": 24.49,
+      "status": "PASSED"
+    },
+    {
+      "question": "What was the stock price of Apple or Tesla on the NASDAQ exchange yesterday?",
+      "expected_topics": [],
+      "retrieved_chunk_ids": [],
+      "retrieval_hit": true,
+      "faithfulness_score": 1.0,
+      "has_citations": false,
+      "refusal_correctness": true,
+      "latency_ms": 23.64,
+      "status": "PASSED"
+    },
+    {
+      "question": "Who won the FIFA Football World Cup final in 1998 and what was the score?",
+      "expected_topics": [],
+      "retrieved_chunk_ids": [],
+      "retrieval_hit": true,
+      "faithfulness_score": 1.0,
+      "has_citations": false,
+      "refusal_correctness": true,
+      "latency_ms": 27.19,
+      "status": "PASSED"
+    }
+  ]
+}
